@@ -1,0 +1,51 @@
+{
+  "brand": "VERIDIS",
+  "sender": "{{signature}}",
+  "rules": {
+    "send_thank_you_within_hours": 2,
+    "send_proposal_within_hours": 24,
+    "first_follow_up_after_days": 2,
+    "second_follow_up_after_days": 5,
+    "nurture_after_days": 30,
+    "max_early_bird_discount": 0.3
+  },
+  "templates": {
+    "thank_you_after_discovery": {
+      "subject": "Merci pour notre echange - prochaine etape VERIDIS",
+      "body": "Bonjour {{prenom}},\n\nMerci pour notre echange d'aujourd'hui.\n\nCe que j'ai retenu :\n\n- Situation : {{situation}}\n- Douleur principale : {{douleur_principale}}\n- Risque ou impact : {{impact}}\n- Prochaine priorite : {{priorite}}\n\nLa prochaine etape convenue : {{prochaine_action}} avant {{date_prochaine_action}}.\n\nJe vous envoie ca comme convenu.\n\n{{signature}}"
+    },
+    "demo_recap": {
+      "subject": "Recap demo VERIDIS - score, gaps et priorites",
+      "body": "Bonjour {{prenom}},\n\nVoici le recap de la demo VERIDIS.\n\nResultat montre :\n\n- Score estime : {{score}}/100\n- Categorie : {{categorie}}\n- Gap #1 : {{gap_1}}\n- Gap #2 : {{gap_2}}\n- Gap #3 : {{gap_3}}\n\nMon analyse : VERIDIS peut vous aider surtout sur {{valeur_principale}}.\n\nLa prochaine etape : {{prochaine_action}}.\n\nLien Calendly si besoin : {{calendly}}\n\n{{signature}}"
+    },
+    "proposal_essential": {
+      "subject": "Proposition VERIDIS Essential pour {{entreprise}}",
+      "body": "Bonjour {{prenom}},\n\nSuite a notre echange, je recommande le plan Essential.\n\nPourquoi : votre contexte semble adapte a une premiere evaluation documentee, avec un perimetre simple et un besoin de clarte rapide.\n\nPrix public : 3 600 EUR/an.\nPrix early-bird si eligible : 2 520 EUR/an la premiere annee.\n\nInclus : wizard de conformite, 1 rapport CSRD/an, PDF standard, 1 utilisateur, support email 48h.\n\nNon inclus : benchmark sectoriel, API, multi-sites avance.\n\nGarantie : 30 jours satisfait ou rembourse.\n\nLien Stripe : {{stripe_checkout}}\n\n{{signature}}"
+    },
+    "proposal_professional": {
+      "subject": "Proposition VERIDIS Professional pour {{entreprise}}",
+      "body": "Bonjour {{prenom}},\n\nSuite a notre echange, je recommande le plan Professional.\n\nPourquoi : votre contexte implique plusieurs parties prenantes, un besoin de benchmark et un pilotage plus structure.\n\nPrix public : 7 200 EUR/an.\nPrix early-bird si eligible : 5 040 EUR/an la premiere annee.\n\nInclus : 3 rapports CSRD/an, 3 utilisateurs, multi-sites, benchmark sectoriel, support chat.\n\nNon inclus : white-label PDF et API.\n\nGarantie : 30 jours satisfait ou rembourse.\n\nLien Stripe : {{stripe_checkout}}\n\n{{signature}}"
+    },
+    "proposal_enterprise": {
+      "subject": "Proposition VERIDIS Enterprise pour {{entreprise}}",
+      "body": "Bonjour {{prenom}},\n\nSuite a notre echange, le plan Enterprise semble le plus coherent.\n\nPourquoi : votre contexte demande plusieurs utilisateurs, une gouvernance avancee, des rapports frequents et potentiellement des integrations.\n\nPrix public : 14 400 EUR/an.\nPrix early-bird si eligible : 10 080 EUR/an la premiere annee.\n\nInclus : rapports illimites, 10 utilisateurs, API, PDF white-label, SLA 4h et onboarding call.\n\nGarantie : 30 jours satisfait ou rembourse.\n\nProchaine etape recommandee : call de cadrage 30 minutes avec les parties prenantes decisionnaires.\n\nLien Calendly : {{calendly}}\n\n{{signature}}"
+    },
+    "follow_up_1": {
+      "subject": "Question rapide sur VERIDIS",
+      "body": "Bonjour {{prenom}},\n\nJe me permets une relance courte.\n\nEst-ce que votre hesitation porte plutot sur le budget, le timing, la confiance dans l'outil, ou la validation interne ?\n\nJe prefere clarifier directement plutot que vous envoyer des relances generiques.\n\n{{signature}}"
+    },
+    "follow_up_2": {
+      "subject": "On met VERIDIS en pause ?",
+      "body": "Bonjour {{prenom}},\n\nDerniere relance de ma part.\n\nSi ce n'est pas le bon moment, aucun souci : je peux vous mettre en nurture et vous renvoyer une ressource utile dans 30 jours.\n\nSi le sujet reste actif, la prochaine etape la plus simple est {{prochaine_action}}.\n\n{{signature}}"
+    },
+    "lost_to_nurture": {
+      "subject": "Je vous laisse la checklist CSRD",
+      "body": "Bonjour {{prenom}},\n\nMerci encore pour l'echange.\n\nJe comprends que VERIDIS n'est pas prioritaire pour le moment.\n\nJe vous laisse tout de meme la checklist CSRD 2026 : {{lien_checklist}}\n\nJe me permettrai une relance dans 30 jours, sauf si vous preferez que je ne le fasse pas.\n\n{{signature}}"
+    },
+    "post_purchase_onboarding": {
+      "subject": "Bienvenue sur VERIDIS - objectif premier succes en 24h",
+      "body": "Bonjour {{prenom}},\n\nBienvenue sur VERIDIS.\n\nVoici ce qui se passe maintenant :\n\n1. Aujourd'hui : vous accedez au dashboard.\n2. Aujourd'hui : vous uploadez votre premier rapport ou brouillon.\n3. Demain : on regarde ensemble le score, les gaps et les 3 priorites.\n4. Cette semaine : vous avez un premier plan d'action exploitable.\n\nVotre premier succes : obtenir votre score de conformite et vos priorites en moins de 24h.\n\nLien dashboard : {{dashboard_url}}\nLien onboarding : {{calendly}}\n\n{{signature}}"
+    }
+  },
+  "commentaire_apres_templates": "Chaque email doit avoir une seule prochaine action. Si l'email demande deux decisions au prospect, il est trop confus."
+}

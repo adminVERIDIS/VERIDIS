@@ -1,0 +1,104 @@
+{
+  "database_name": "Veridis CRM",
+  "purpose": "CRM solo founder pour suivre les leads CSRD, les calls, les propositions, les follow-ups et l'onboarding.",
+  "properties": {
+    "Nom": { "type": "title" },
+    "Entreprise": { "type": "relation", "database": "Entreprises" },
+    "Email": { "type": "email" },
+    "Telephone": { "type": "phone" },
+    "Role": {
+      "type": "select",
+      "options": ["DAF", "CFO", "Dirigeant", "Responsable RSE", "Consultant ESG", "Autre"]
+    },
+    "Source": {
+      "type": "select",
+      "options": ["LinkedIn", "Webinar", "Referral", "SEO", "Outbound", "Partenariat", "Newsletter", "Content"]
+    },
+    "Statut": {
+      "type": "select",
+      "options": [
+        "Lead",
+        "Qualifie",
+        "Call decouverte booke",
+        "Demo effectuee",
+        "Proposition envoyee",
+        "Negociation",
+        "Gagne",
+        "Perdu",
+        "Nurture"
+      ]
+    },
+    "BANT Budget": { "type": "checkbox" },
+    "BANT Authority": { "type": "checkbox" },
+    "BANT Need": { "type": "checkbox" },
+    "BANT Timing": { "type": "checkbox" },
+    "BANT Score": {
+      "type": "formula",
+      "expression": "toNumber(prop(\"BANT Budget\")) + toNumber(prop(\"BANT Authority\")) + toNumber(prop(\"BANT Need\")) + toNumber(prop(\"BANT Timing\"))"
+    },
+    "Date echeance CSRD": { "type": "date" },
+    "Effectif": { "type": "number" },
+    "Secteur": {
+      "type": "select",
+      "options": ["Manufacturier", "Services", "Distribution", "Transport", "Energie", "Construction", "Finance", "Technologie", "Autre"]
+    },
+    "Multi-sites": { "type": "checkbox" },
+    "Rapport existant": { "type": "checkbox" },
+    "Douleur principale": { "type": "rich_text" },
+    "Impact business": { "type": "rich_text" },
+    "Plan recommande": {
+      "type": "select",
+      "options": ["Essential", "Professional", "Enterprise"]
+    },
+    "ARR potentiel": {
+      "type": "formula",
+      "expression": "if(prop(\"Plan recommande\") == \"Essential\", 3600, if(prop(\"Plan recommande\") == \"Professional\", 7200, if(prop(\"Plan recommande\") == \"Enterprise\", 14400, 0)))"
+    },
+    "MRR potentiel": {
+      "type": "formula",
+      "expression": "prop(\"ARR potentiel\") / 12"
+    },
+    "Early-bird eligible": { "type": "checkbox" },
+    "Discount max autorise": {
+      "type": "formula",
+      "expression": "if(prop(\"Early-bird eligible\"), 0.3, 0)"
+    },
+    "Dernier contact": { "type": "date" },
+    "Prochaine action": { "type": "rich_text" },
+    "Date prochaine action": { "type": "date" },
+    "Notes": { "type": "rich_text" },
+    "Loom demo": { "type": "url" },
+    "Calendly": { "type": "url" },
+    "Stripe checkout": { "type": "url" },
+    "Raison perdu": {
+      "type": "select",
+      "options": ["Budget", "Timing", "Pas le decisionnaire", "Pas de besoin", "Concurrent", "Interne", "Autre"]
+    }
+  },
+  "views": [
+    { "name": "Pipeline", "type": "board", "group_by": "Statut" },
+    { "name": "Actions du jour", "type": "table", "filter": "Date prochaine action est aujourd'hui" },
+    { "name": "Nurture", "type": "table", "filter": "Statut est Nurture" },
+    { "name": "Early-bird chaud", "type": "table", "filter": "Early-bird eligible est coche et Statut n'est pas Gagne" },
+    { "name": "Forecast ARR", "type": "table", "sort": "ARR potentiel decroissant" }
+  ],
+  "stage_exit_criteria": {
+    "Lead": "Source identifiee et contact cree.",
+    "Qualifie": "BANT score >= 3 ou besoin CSRD explicite.",
+    "Call decouverte booke": "Calendly confirme avec date et objectif.",
+    "Demo effectuee": "Douleur principale, impact et plan recommande notes.",
+    "Proposition envoyee": "Email proposition envoye avec lien Stripe ou prochaine etape.",
+    "Negociation": "Objection active identifiee et action datee.",
+    "Gagne": "Paiement Stripe ou engagement annuel confirme.",
+    "Perdu": "Raison perdue documentee.",
+    "Nurture": "Pas de call maintenant, relance datee dans 30 jours."
+  },
+  "daily_operating_rules": [
+    "Ouvrir la vue Actions du jour avant toute autre action commerciale.",
+    "Chaque call doit finir avec une prochaine action datee.",
+    "Aucun discount hors early-bird -30%.",
+    "Chaque prospect perdu doit avoir une raison claire.",
+    "Chaque client gagne doit passer en onboarding 24h."
+  ],
+  "commentaire_apres_template": "Le CRM doit rester simple. Si une propriete n'aide pas a vendre, relancer ou onboarder, elle doit etre supprimee."
+}
