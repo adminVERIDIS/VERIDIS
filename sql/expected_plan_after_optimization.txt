@@ -1,0 +1,32 @@
+Expected shape after indexes and fresh ANALYZE.
+Replace this with the real output from sql/dashboard_query_explain.sql.
+
+Sort
+  Sort Key: CASE req.severite ..., rf.score
+  Sort Method: quicksort
+  CTE rapport_scope
+    Limit
+      -> Index Only Scan using idx_rapports_csrd_dashboard_guard on rapports_csrd rap
+           Index Cond: ((id = $rapport_id) AND (organisation_id = $organisation_id))
+           Heap Fetches: 0
+  CTE reponses_filtrees
+    -> Nested Loop
+         -> CTE Scan on rapport_scope rs
+         -> Index Only Scan using idx_reponses_esrs_dashboard_covering on reponses_esrs r
+              Index Cond: ((tenant_id = $tenant_id) AND (rapport_id = rs.id) AND (statut = ANY (...)))
+              Heap Fetches: 0 after VACUUM visibility map is warm
+  -> Nested Loop
+       -> Nested Loop
+            -> CTE Scan on reponses_filtrees rf
+            -> Index Only Scan using idx_esrs_requirements_dashboard_lookup on esrs_requirements req
+                 Index Cond: (id = rf.requirement_id)
+       -> Index Only Scan using idx_entreprises_dashboard_lookup on entreprises e
+            Index Cond: (id = rs.entreprise_id)
+
+Target:
+  Planning Time: < 5 ms
+  Execution Time p95: < 100 ms
+
+Notes:
+  - Heap Fetches may be > 0 immediately after index creation; run VACUUM (ANALYZE) during maintenance if index-only scans matter.
+  - The sort is acceptable if rapport_id returns dashboard-scale rows. If one report can return thousands of rows, consider a persisted severity_rank on esrs_requirements.
