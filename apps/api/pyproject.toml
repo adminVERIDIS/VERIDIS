@@ -1,0 +1,26 @@
+[project]
+name = "veridis-api"
+version = "0.1.0"
+description = "VERIDIS CSRD analysis engine"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.50.0",
+  "pydantic>=2.8.0",
+  "sqlalchemy>=2.0.30",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+  "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
