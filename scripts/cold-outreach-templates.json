@@ -1,0 +1,86 @@
+{
+  "brand": "VERIDIS",
+  "target_segment": "DAF/CFO, dirigeants finance et responsables RSE d'entreprises de 250 a 999 salaries, priorite secteur manufacturier",
+  "rules": {
+    "daily_volume": 20,
+    "weekly_volume": 100,
+    "max_words_first_message": 80,
+    "personalization_required": true,
+    "no_paid_ads_until_mrr_eur": 10000,
+    "tracking_tool": "Notion CRM",
+    "utm_source": "linkedin",
+    "response_sla_hours": 24
+  },
+  "variables": [
+    "prenom",
+    "nom",
+    "entreprise",
+    "secteur",
+    "nombre_rapports",
+    "statistique_choc",
+    "angle_echeance",
+    "lien_checklist",
+    "lien_booking",
+    "signature"
+  ],
+  "linkedin_connect": {
+    "character_limit": 300,
+    "template": "Bonjour {{prenom}}, j'analyse les gaps CSRD des PME/ETI industrielles. Je construis VERIDIS pour aider les DAF a savoir rapidement si leur dossier est conforme, partiel ou expose. Ouvert a un echange de 10 min sur votre reporting ?",
+    "success_metric": "connection_acceptance_rate",
+    "target": 0.35
+  },
+  "linkedin_first_message_after_acceptance": {
+    "word_limit": 80,
+    "template": "Bonjour {{prenom}},\n\nMerci pour l'ajout.\n\nJ'ai analyse {{nombre_rapports}} rapports RSE du secteur {{secteur}}. Le pattern qui revient : beaucoup de narration, mais des preuves parfois difficiles a tracer.\n\nJe construis VERIDIS pour aider les DAF a identifier ces gaps avant l'echeance CSRD.\n\nPossible de vous montrer en 10 min ce que ca donne sur un rapport ?\n\n{{signature}}",
+    "success_metric": "positive_reply_rate",
+    "target": 0.2
+  },
+  "follow_up_1": {
+    "send_after_days": 3,
+    "template": "Bonjour {{prenom}},\n\nJe me permets une relance courte.\n\nL'angle n'est pas de vous vendre un audit, mais de vous montrer un diagnostic initial : score, gaps, preuves faibles et actions prioritaires.\n\nSi vous avez un rapport RSE ou un extrait anonymise, je peux vous montrer le resultat en 10 min cette semaine.\n\n{{lien_booking}}\n\n{{signature}}",
+    "success_metric": "booking_rate_after_follow_up_1",
+    "target": 0.08
+  },
+  "follow_up_2": {
+    "send_after_days": 7,
+    "template": "Bonjour {{prenom}},\n\nDernier message de ma part.\n\nJe comprends si ce n'est pas le bon timing. Je vous laisse tout de meme la checklist gratuite pour cadrer un diagnostic CSRD : {{lien_checklist}}\n\nElle couvre perimetre, materialite, donnees, proprietaires et preuves.\n\nBonne continuation,\n{{signature}}",
+    "success_metric": "resource_click_rate",
+    "target": 0.15
+  },
+  "email_waitlist_open_access": {
+    "subject": "Votre acces VERIDIS est ouvert - 30% de reduction expire dans 48h",
+    "preview": "Les 10 premieres places early-bird incluent l'onboarding fondateur.",
+    "template": "Bonjour {{prenom}},\n\nVotre acces VERIDIS est ouvert.\n\nVous vous etes inscrit pour suivre le lancement de VERIDIS, le diagnostic CSRD qui transforme un rapport en score de conformite, gaps prioritaires et plan d'action.\n\nL'offre early-bird est disponible pendant 48h ou jusqu'aux 10 premieres places :\n\n- Essential : 2,520 EUR/an au lieu de 3,600 EUR/an.\n- Professional : 5,040 EUR/an au lieu de 7,200 EUR/an.\n- Onboarding 1-to-1 avec le fondateur inclus.\n- Garantie 30 jours satisfait ou rembourse.\n\nReserver votre acces : {{lien_booking}}\n\nSi vous preferez me repondre directement, envoyez simplement EARLY et je vous proposerai un creneau.\n\n{{signature}}",
+    "success_metric": "checkout_or_booking_click_rate",
+    "target": 0.12
+  },
+  "email_waitlist_education": {
+    "subject": "Le test simple pour savoir si votre dossier CSRD est fragile",
+    "preview": "Une question a poser avant votre prochain comite reporting.",
+    "template": "Bonjour {{prenom}},\n\nVoici une question simple a poser a votre equipe :\n\nSi un auditeur demandait la preuve demain, que montrerions-nous ?\n\nCette question revele tres vite les zones fragiles : source de donnee floue, proprietaire absent, methode non documentee, action non priorisee.\n\nVERIDIS part de cette logique : score, gaps, preuves, priorites.\n\nSi vous voulez un diagnostic initial, vous pouvez reserver un creneau ici : {{lien_booking}}\n\n{{signature}}",
+    "success_metric": "reply_rate",
+    "target": 0.08
+  },
+  "notion_crm_stages": [
+    "identified",
+    "contacted",
+    "connected",
+    "replied",
+    "demo_booked",
+    "diagnostic_sent",
+    "trial",
+    "paid",
+    "lost"
+  ],
+  "weekly_review": {
+    "questions": [
+      "Quel segment repond le plus ?",
+      "Quel hook genere le plus de demos ?",
+      "Quel obstacle revient dans les appels ?",
+      "Quel contenu LinkedIn a influence les reponses ?",
+      "Quelle action doubler la semaine prochaine ?"
+    ],
+    "cut_rule": "Couper tout message avec moins de 5% de reponses positives apres 100 envois.",
+    "double_down_rule": "Doubler tout angle qui depasse 20% de reponses positives ou 8% de bookings."
+  }
+}

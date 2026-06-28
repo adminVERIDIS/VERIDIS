@@ -1,0 +1,321 @@
+{
+  "brand": "VERIDIS",
+  "channel": "LinkedIn founder profile",
+  "launch_phase": "Phase 0 - pre-lancement",
+  "positioning": "CSRD premium pour DAF, directions RSE et dirigeants de PME/ETI qui veulent identifier leurs gaps avant l'audit.",
+  "week_template": {
+    "monday": {
+      "type": "stat",
+      "format": "Image simple Canva + texte 120-160 mots",
+      "hook_template": "X - c'est [statistique ou signal fort]. Pourtant [contraste].",
+      "cta": "Commentez SOURCE si vous voulez la reference."
+    },
+    "tuesday": {
+      "type": "mistake",
+      "format": "Texte 180-220 mots, 3-4 paragraphes",
+      "hook_template": "L'erreur CSRD qui peut couter tres cher : [erreur].",
+      "cta": "Sauvegardez ce post pour votre prochain comite reporting."
+    },
+    "wednesday": {
+      "type": "case_study",
+      "format": "Storytelling anonymise, 160-220 mots",
+      "hook_template": "J'ai relu [N] rapports RSE. Voici le pattern qui revient tout le temps.",
+      "cta": "Lien vers l'outil gratuit ou la waitlist."
+    },
+    "thursday": {
+      "type": "regulatory",
+      "format": "Thread 5-7 posts ou carrousel",
+      "hook_template": "CSRD : ce que les DAF doivent clarifier avant de lancer le chantier.",
+      "cta": "Partagez a votre DAF s'il veut gagner 30 minutes."
+    },
+    "friday": {
+      "type": "behind_the_scenes",
+      "format": "Photo ou capture authentique + texte personnel",
+      "hook_template": "Semaine X de VERIDIS : [victoire, apprentissage ou blocage].",
+      "cta": "Vos questions en commentaire."
+    }
+  },
+  "four_week_calendar": [
+    {
+      "week": 1,
+      "day": "monday",
+      "type": "stat",
+      "status": "ready_to_publish",
+      "hook": "5 minutes - c'est le temps qu'un DAF devrait mettre pour savoir si son dossier CSRD est en zone rouge.",
+      "body": "Le probleme n'est pas de tout comprendre a la CSRD. Le probleme est de savoir quoi verifier en premier. Un dossier peut avoir beaucoup de pages, de beaux graphiques et une gouvernance RSE serieuse... tout en laissant des trous sur les donnees, les responsabilites ou les preuves. Avec VERIDIS, mon objectif est simple : donner un premier score de conformite en quelques minutes, puis isoler les gaps qui meritent une vraie decision de direction.",
+      "cta": "Commentez CHECKLIST si vous voulez la grille de verification.",
+      "asset": "Canva: fond blanc, chiffre 5 min, sous-texte 'diagnostic CSRD initial'",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 35,
+      "tracking_kpi": "impressions, comments, profile_views, waitlist_clicks"
+    },
+    {
+      "week": 1,
+      "day": "tuesday",
+      "type": "mistake",
+      "status": "ready_to_publish",
+      "hook": "L'erreur CSRD la plus dangereuse : commencer par collecter des donnees sans cadrer la preuve attendue.",
+      "body": "Beaucoup d'equipes demarrent avec un tableur geant. Emissions, effectifs, politique achats, risques climatiques, plans d'action. C'est rassurant, mais ca peut devenir un piege. La vraie question n'est pas seulement 'avons-nous la donnee ?'. C'est aussi : qui en est responsable, quelle methode a ete appliquee, quelle preuve sera montrable, et quel gap reste ouvert ? VERIDIS est construit autour de cette logique : score, gaps, preuves, priorites. Moins de theatre reporting. Plus de pilotage.",
+      "cta": "Sauvegardez ce post pour votre prochain cadrage CSRD.",
+      "asset": "Texte seul avec premiere ligne tres courte",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 25,
+      "tracking_kpi": "saves, comments, connection_requests"
+    },
+    {
+      "week": 1,
+      "day": "wednesday",
+      "type": "case_study",
+      "status": "ready_to_publish",
+      "hook": "J'ai relu des rapports RSE comme un auditeur fatigue. Le meme pattern revient souvent.",
+      "body": "Les rapports sont souvent tres bons sur l'intention : mission, valeurs, engagements, initiatives. Mais quand on cherche la mecanique de conformite, trois questions restent floues : quels sujets sont materiels, quelles donnees sont tracees, quelles actions sont mesurables dans le temps ? Ce n'est pas un probleme de bonne volonte. C'est un probleme d'architecture de reporting. VERIDIS sert a transformer un rapport narratif en diagnostic : ce qui est couvert, ce qui manque, ce qui doit etre prouve.",
+      "cta": "Je prepare une analyse anonymisee. Commentez RAPPORT si vous voulez la recevoir.",
+      "asset": "Capture floutee d'une checklist interne, sans donnees client",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 40,
+      "tracking_kpi": "comments, waitlist_signups, dm_requests"
+    },
+    {
+      "week": 1,
+      "day": "thursday",
+      "type": "regulatory",
+      "status": "ready_to_publish",
+      "hook": "CSRD : la premiere question n'est pas 'quel outil choisir ?'.",
+      "body": "La premiere question est : 'quel est notre niveau de preuve aujourd'hui ?' Ensuite seulement viennent les outils, les consultants et le calendrier. Pour un DAF, la CSRD devient gerable quand le sujet est decoupe en quatre blocs : perimetre, materialite, donnees, auditabilite. Si un de ces blocs est flou, le risque augmente. C'est la logique de VERIDIS : partir du document existant, sortir un score, puis classer les gaps par impact et urgence.",
+      "cta": "Partagez a votre equipe finance/RSE si le cadrage CSRD est en cours.",
+      "asset": "Carrousel 5 slides: perimetre, materialite, donnees, auditabilite, score",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 50,
+      "tracking_kpi": "shares, carousel_completion_rate, profile_views"
+    },
+    {
+      "week": 1,
+      "day": "friday",
+      "type": "behind_the_scenes",
+      "status": "ready_to_publish",
+      "hook": "Semaine 1 de VERIDIS : j'ai une obsession simple.",
+      "body": "Je veux que la CSRD devienne lisible pour les dirigeants qui n'ont pas le temps de vivre dans les textes. Pas simpliste. Lisible. Cette semaine, j'ai travaille sur une chose : transformer un rapport en score de conformite, puis en liste de gaps actionnables. Le produit n'est pas encore parfait. Mais le besoin est deja clair : les DAF veulent savoir ou ils en sont, quoi corriger, et combien de risque reste ouvert.",
+      "cta": "Si vous voulez tester la version early access, le lien est en commentaire.",
+      "asset": "Photo bureau ou capture neutre du dashboard sans donnees sensibles",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 30,
+      "tracking_kpi": "comments, link_clicks, waitlist_signups"
+    },
+    {
+      "week": 2,
+      "day": "monday",
+      "type": "stat",
+      "status": "ready_to_publish",
+      "hook": "3 preuves valent mieux que 30 promesses RSE.",
+      "body": "Une politique climat, une charte achats ou un engagement social ne suffisent pas si personne ne peut montrer la methode, la source et le suivi. En CSRD, le storytelling doit rencontrer la preuve. C'est la bascule la plus difficile pour beaucoup d'entreprises : passer du rapport qui raconte au reporting qui se defend. VERIDIS aide a reperer ce glissement : ou la preuve existe, ou elle manque, et ou elle doit etre renforcee avant audit.",
+      "cta": "Commentez PREUVE si vous voulez ma liste des preuves a verifier.",
+      "asset": "Canva: '3 preuves > 30 promesses'",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 35,
+      "tracking_kpi": "comments, saves, waitlist_clicks"
+    },
+    {
+      "week": 2,
+      "day": "tuesday",
+      "type": "mistake",
+      "status": "ready_to_publish",
+      "hook": "Erreur CSRD : confondre responsable du sujet et proprietaire de la donnee.",
+      "body": "Le RSE peut piloter le sujet. Mais la donnee vient souvent des RH, de la finance, des achats, des operations, de l'energie ou des filiales. Si cette responsabilite n'est pas claire, le reporting devient fragile. Un bon diagnostic CSRD doit donc montrer les gaps de contenu, mais aussi les zones de responsabilite floues. C'est une des raisons pour lesquelles VERIDIS ne se limite pas a un score : chaque gap doit mener a une action et a un proprietaire.",
+      "cta": "Sauvegardez ce post si votre reporting implique plus de trois equipes.",
+      "asset": "Texte seul, structure en 4 paragraphes courts",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 25,
+      "tracking_kpi": "saves, comments, profile_views"
+    },
+    {
+      "week": 2,
+      "day": "wednesday",
+      "type": "case_study",
+      "status": "ready_to_publish",
+      "hook": "Cas pratique : le rapport est propre, mais le risque reste eleve.",
+      "body": "Imaginez une entreprise industrielle avec un rapport RSE bien presente. Les engagements sont clairs. Les actions sont nombreuses. Mais sur certains sujets, les indicateurs ne disent pas qui collecte, comment la donnee est verifiee, ni quelle trajectoire est attendue. Resultat : le document inspire confiance a la lecture rapide, mais il resiste mal a une grille CSRD. C'est exactement le type d'ecart que VERIDIS veut rendre visible tot, avant que le sujet ne devienne couteux.",
+      "cta": "Je peux analyser un extrait anonymise. DM ouvert.",
+      "asset": "Schema simple: rapport propre -> grille CSRD -> gaps visibles",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 40,
+      "tracking_kpi": "dm_requests, comments, waitlist_signups"
+    },
+    {
+      "week": 2,
+      "day": "thursday",
+      "type": "regulatory",
+      "status": "ready_to_publish",
+      "hook": "CSRD : la question qui debloque souvent le projet.",
+      "body": "Demandez simplement : 'Si un auditeur nous demandait la preuve demain, que montrerions-nous ?' Cette question change tout. Elle force a sortir du vocabulaire vague. Elle clarifie les donnees disponibles. Elle revele les dependances entre equipes. Et elle evite de transformer la CSRD en exercice de communication. Dans VERIDIS, je veux que chaque score renvoie a cette realite : ce qui est defensible, ce qui est partiel, ce qui manque.",
+      "cta": "Partagez a la personne qui pilote votre reporting extra-financier.",
+      "asset": "Carrousel 5 slides avec la question centrale et 4 implications",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 50,
+      "tracking_kpi": "shares, saves, profile_views"
+    },
+    {
+      "week": 2,
+      "day": "friday",
+      "type": "behind_the_scenes",
+      "status": "ready_to_publish",
+      "hook": "Semaine 2 de VERIDIS : je retire une fonctionnalite.",
+      "body": "J'avais envie d'ajouter plus de visualisations. Puis j'ai parle a des dirigeants. Leur demande etait plus simple : dites-moi si je suis conforme, partiel ou a risque, et montrez-moi quoi corriger. Donc je garde le produit tendu vers cette promesse : un score clair, des gaps lisibles, des actions prioritaires. Le luxe dans un SaaS CSRD, ce n'est pas l'abondance. C'est la clarte.",
+      "cta": "Quel indicateur CSRD vous ferait gagner le plus de temps ?",
+      "asset": "Capture dashboard avec score masque ou maquette",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 30,
+      "tracking_kpi": "comments, qualitative_feedback, waitlist_signups"
+    },
+    {
+      "week": 3,
+      "day": "monday",
+      "type": "stat",
+      "status": "ready_to_publish",
+      "hook": "1 score ne suffit pas. Il faut aussi une raison.",
+      "body": "Un score CSRD sans explication devient un gadget. Un score utile doit expliquer pourquoi une zone est conforme, partielle ou non conforme. Il doit montrer les criteres manquants, les preuves faibles et les actions prioritaires. C'est ce que je construis dans VERIDIS : pas une note pour decorer un dashboard, mais un diagnostic que le DAF peut utiliser en comite de pilotage.",
+      "cta": "Commentez SCORE si vous voulez voir la logique de scoring.",
+      "asset": "Canva: cercle de score + 3 libelles 'preuve, gap, priorite'",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 35,
+      "tracking_kpi": "comments, profile_views, demo_requests"
+    },
+    {
+      "week": 3,
+      "day": "tuesday",
+      "type": "mistake",
+      "status": "ready_to_publish",
+      "hook": "Erreur CSRD : attendre le dernier trimestre pour verifier les gaps.",
+      "body": "La verification tardive donne une fausse impression de gain de temps. En realite, elle deplace le cout. Quand un gap est decouvert trop tard, il faut retrouver les sources, aligner les equipes, reconstituer la methode et justifier les choix sous pression. Un diagnostic initial ne remplace pas le travail de fond, mais il evite de piloter a l'aveugle. C'est la promesse de VERIDIS : voir les trous avant qu'ils coutent cher.",
+      "cta": "Sauvegardez ce post si votre prochaine revue CSRD approche.",
+      "asset": "Texte seul avec format 'cout visible / cout cache'",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 25,
+      "tracking_kpi": "saves, comments, waitlist_clicks"
+    },
+    {
+      "week": 3,
+      "day": "wednesday",
+      "type": "case_study",
+      "status": "ready_to_publish",
+      "hook": "J'ai compare deux facons de lire un rapport RSE.",
+      "body": "Lecture classique : est-ce clair, coherent, bien structure ? Lecture CSRD : est-ce complet, trace, explicable et audit-ready ? Les deux lectures ne donnent pas le meme resultat. Un rapport peut etre agreable a lire et incomplet pour un diagnostic de conformite. C'est ce decalage que VERIDIS veut reduire : transformer une lecture qualitative en grille actionnable pour les equipes finance, RSE et direction.",
+      "cta": "Je partage bientot un exemple anonymise. Inscrivez-vous a l'early access.",
+      "asset": "Tableau 2 colonnes: lecture classique vs lecture CSRD",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 40,
+      "tracking_kpi": "link_clicks, waitlist_signups, comments"
+    },
+    {
+      "week": 3,
+      "day": "thursday",
+      "type": "regulatory",
+      "status": "ready_to_publish",
+      "hook": "CSRD : ne cherchez pas seulement les obligations. Cherchez les dependances.",
+      "body": "Le sujet devient difficile parce qu'il traverse l'entreprise. Finance, RSE, RH, achats, operations, juridique, filiales : chacun detient une partie de la preuve. Quand ces dependances ne sont pas visibles, le calendrier se tend. Un bon pilotage CSRD doit donc cartographier les sujets, mais aussi les proprietaires et les points de blocage. VERIDIS integre cette logique dans son diagnostic : score, gaps, proprietaires, priorites.",
+      "cta": "Partagez a une equipe qui doit aligner finance et RSE.",
+      "asset": "Carrousel: 6 fonctions impliquees + question de preuve",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 50,
+      "tracking_kpi": "shares, saves, profile_views"
+    },
+    {
+      "week": 3,
+      "day": "friday",
+      "type": "behind_the_scenes",
+      "status": "ready_to_publish",
+      "hook": "Semaine 3 de VERIDIS : le produit devient plus strict.",
+      "body": "Je prefere un score plus exigeant qu'un score flatteur. Si un rapport ne prouve pas assez, VERIDIS doit le dire. Pas pour faire peur. Pour eviter les mauvaises surprises. Le but n'est pas de remplacer le jugement humain ou l'audit. Le but est de donner une premiere lecture robuste, rapide et utile. Dans un marche plein de bruit, la confiance vient de la rigueur.",
+      "cta": "DAF, RSE, consultants : que doit absolument signaler un bon diagnostic ?",
+      "asset": "Capture de note produit ou grille scoring",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 30,
+      "tracking_kpi": "comments, expert_replies, demo_requests"
+    },
+    {
+      "week": 4,
+      "day": "monday",
+      "type": "stat",
+      "status": "ready_to_publish",
+      "hook": "10 clients early valent mieux que 1 000 visiteurs anonymes.",
+      "body": "Le lancement de VERIDIS ne sera pas une course aux vues. Ce que je cherche d'abord : des DAF, responsables RSE et consultants qui acceptent de tester le diagnostic, de critiquer les resultats et de devenir partenaires du produit. Chaque client early aura plus qu'un acces logiciel : onboarding fondateur, ecoute directe, priorisation des retours utiles. C'est comme ca que je veux construire un SaaS CSRD premium.",
+      "cta": "Il reste des places early access. Lien en commentaire.",
+      "asset": "Canva: '10 clients early > 1000 visiteurs'",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 35,
+      "tracking_kpi": "waitlist_signups, demo_requests, dm_requests"
+    },
+    {
+      "week": 4,
+      "day": "tuesday",
+      "type": "mistake",
+      "status": "ready_to_publish",
+      "hook": "Erreur de lancement : vendre la CSRD comme un sujet technique.",
+      "body": "La CSRD est technique, oui. Mais pour un dirigeant, le sujet est surtout une question de risque, de confiance et de temps. Risque de non-conformite. Confiance des investisseurs, clients, banques et auditeurs. Temps perdu a consolider des donnees disperses. VERIDIS doit donc parler le langage du management : ou sommes-nous exposes, que devons-nous corriger, quelle decision prendre cette semaine ?",
+      "cta": "Sauvegardez ce post si vous devez expliquer la CSRD a un comite de direction.",
+      "asset": "Texte seul avec structure risque/confiance/temps",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 25,
+      "tracking_kpi": "saves, comments, profile_views"
+    },
+    {
+      "week": 4,
+      "day": "wednesday",
+      "type": "case_study",
+      "status": "ready_to_publish",
+      "hook": "Un bon diagnostic CSRD doit finir par une decision.",
+      "body": "Si le resultat d'un audit interne est seulement 'il faut approfondir', personne n'avance. Un diagnostic utile doit prioriser : ce qui bloque, ce qui peut attendre, ce qui demande un responsable, ce qui demande une preuve. C'est cette logique que j'applique a VERIDIS. Le score ouvre la conversation. Les gaps la structurent. Les actions la rendent utile.",
+      "cta": "Je cherche 10 entreprises pour tester ce workflow. DM ou lien en commentaire.",
+      "asset": "Schema: score -> gaps -> proprietaires -> actions",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 40,
+      "tracking_kpi": "dm_requests, demo_bookings, waitlist_signups"
+    },
+    {
+      "week": 4,
+      "day": "thursday",
+      "type": "regulatory",
+      "status": "ready_to_publish",
+      "hook": "CSRD : avant de demander 'sommes-nous concernes ?', demandez 'sommes-nous prets a prouver ?'.",
+      "body": "Les calendriers evoluent, les textes se precisent, les seuils peuvent etre discutes. Mais une chose ne change pas : les entreprises devront mieux structurer leurs donnees de durabilite. Celles qui commencent par la preuve auront un avantage. Elles sauront quoi dire, quoi corriger et quoi refuser de promettre. VERIDIS est construit pour cette posture : verifier avant d'affirmer.",
+      "cta": "Partagez a votre equipe avant la prochaine reunion CSRD.",
+      "asset": "Carrousel: calendrier evolue, exigence de preuve reste",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 50,
+      "tracking_kpi": "shares, comments, expert_replies"
+    },
+    {
+      "week": 4,
+      "day": "friday",
+      "type": "behind_the_scenes",
+      "status": "ready_to_publish",
+      "hook": "Semaine 4 de VERIDIS : le lancement commence vraiment maintenant.",
+      "body": "La waitlist n'est pas un trophée. C'est une responsabilite. Chaque personne qui s'inscrit donne un signal : ce sujet est douloureux, urgent ou mal outille. Les prochaines semaines seront simples : demos, retours, corrections, premiers clients. Pas de publicite. Pas de promesse magique. Du contenu utile, des diagnostics concrets, et un produit qui s'ameliore avec les vrais dossiers.",
+      "cta": "Si vous voulez faire partie des 10 premiers clients early, le lien est en commentaire.",
+      "asset": "Photo authentique + compteur waitlist ou tableau de suivi",
+      "link_target": "veridis.fr/early-access",
+      "owner_time_minutes": 30,
+      "tracking_kpi": "waitlist_signups, demo_bookings, comments"
+    }
+  ],
+  "publishing_rules": {
+    "cadence": "5 posts per week, Monday to Friday",
+    "posting_window": "08:00-09:00 Europe/Paris",
+    "comment_response_sla_minutes": 60,
+    "weekly_review_slot": "Friday 16:00",
+    "no_paid_ads_until_mrr_eur": 10000
+  },
+  "kpis": {
+    "weekly_posts": 5,
+    "target_impressions": 10000,
+    "target_engagement_rate": 0.05,
+    "target_profile_views": 500,
+    "target_connection_requests": 50,
+    "target_waitlist_signups_per_week": 50,
+    "tools": {
+      "content_tracking": "Notion CRM",
+      "email_capture": "Loops",
+      "product_and_landing_analytics": "PostHog",
+      "utm_convention": "utm_source=linkedin&utm_medium=organic&utm_campaign=prelaunch_week_[1-4]&utm_content=[post_type]"
+    }
+  }
+}
