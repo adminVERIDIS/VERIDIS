@@ -1,0 +1,74 @@
+{% import "components/status_badge.html" as badge %}
+{% import "components/gap_card.html" as gap_card %}
+
+{% macro render(item) -%}
+<div class="esrs-detail">
+  <div class="esrs-detail__headline">
+    <div>
+      <p class="eyebrow">{{ item.code }}</p>
+      <h2>{{ item.title }}</h2>
+    </div>
+    {{ badge.render(item.status, item.status_label) }}
+  </div>
+
+  <div class="metric-strip">
+    <div>
+      <span>Score</span>
+      <strong>{{ item.score|score }}/100</strong>
+    </div>
+    <div>
+      <span>Confiance</span>
+      <strong>{{ item.confidence|pct }}</strong>
+    </div>
+    <div>
+      <span>Exigences lues</span>
+      <strong>{{ item.requirement_count }}</strong>
+    </div>
+    <div>
+      <span>Ecarts</span>
+      <strong>{{ item.gap_count }}</strong>
+    </div>
+  </div>
+
+  <p class="body-copy">{{ item.explanation }}</p>
+
+  <div class="two-column">
+    <section>
+      <h3>Preuves extraites</h3>
+      <ul class="compact-list">
+        {% for extraction in item.extractions[:6] %}
+        <li>
+          <strong>{{ extraction.code }}</strong>
+          <span>{{ "Present" if extraction.present else "Absent" }} - confiance {{ extraction.confidence|pct }}</span>
+        </li>
+        {% else %}
+        <li><span>Aucune preuve exploitable detectee.</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+    <section>
+      <h3>Points d'attention</h3>
+      <ul class="compact-list">
+        {% for penalty in item.penalties[:5] %}
+        <li><span>{{ penalty }}</span></li>
+        {% endfor %}
+        {% for bonus in item.bonuses[:3] %}
+        <li><span>{{ bonus }}</span></li>
+        {% else %}
+        {% if not item.penalties %}
+        <li><span>Aucun point specifique enregistre.</span></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  <div class="gap-grid">
+    {% for gap in item.gaps[:3] %}
+    {{ gap_card.render(gap) }}
+    {% else %}
+    <div class="empty-state">Aucun ecart prioritaire rattache a cette norme.</div>
+    {% endfor %}
+  </div>
+</div>
+{%- endmacro %}

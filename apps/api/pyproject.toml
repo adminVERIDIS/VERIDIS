@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "VERIDIS CSRD analysis engine"
 requires-python = ">=3.11"
 dependencies = [
+  "celery>=5.4.0",
+  "jinja2>=3.1.4",
   "openai>=1.50.0",
+  "playwright>=1.48.0",
   "pydantic>=2.8.0",
   "sqlalchemy>=2.0.30",
 ]
@@ -23,4 +26,3 @@ asyncio_mode = "auto"
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-

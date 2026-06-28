@@ -1,0 +1,24 @@
+{% macro render(item) -%}
+<article class="action-item action-item--{{ item.severity }}">
+  <div class="action-item__rank">{{ item.rank }}</div>
+  <div class="action-item__body">
+    <div class="action-item__meta">
+      <span>{{ item.severity_label }}</span>
+      <span>{{ item.deadline }}</span>
+      <span>{{ item.effort }}</span>
+    </div>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.action }}</p>
+    <dl>
+      <div>
+        <dt>Responsable</dt>
+        <dd>{{ item.owner }}</dd>
+      </div>
+      <div>
+        <dt>Impact</dt>
+        <dd>{{ item.impact_score|score }}/100</dd>
+      </div>
+    </dl>
+  </div>
+</article>
+{%- endmacro %}

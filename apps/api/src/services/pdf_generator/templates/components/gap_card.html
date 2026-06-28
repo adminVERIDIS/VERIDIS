@@ -1,0 +1,14 @@
+{% macro render(gap) -%}
+<article class="gap-card gap-card--{{ gap.severity }}">
+  <div class="gap-card__header">
+    <span class="gap-card__severity">{{ gap.severity_label }}</span>
+    <span class="gap-card__impact">Impact {{ gap.impact_score|score }}</span>
+  </div>
+  <h3>{{ gap.requirement_code }}</h3>
+  <p>{{ gap.description }}</p>
+  <div class="gap-card__action">
+    <strong>Action</strong>
+    <span>{{ gap.action_required }}</span>
+  </div>
+</article>
+{%- endmacro %}

@@ -1,0 +1,23 @@
+{% macro render(score, label, status) -%}
+{% set safe_score = [0, [score, 100]|min]|max %}
+{% set circumference = 314 %}
+{% set offset = circumference - (circumference * safe_score / 100) %}
+<figure class="score-gauge score-gauge--{{ status }}" role="img" aria-label="Score {{ label }} {{ safe_score|score }} sur 100">
+  <svg class="score-gauge__svg" viewBox="0 0 140 140" aria-hidden="true">
+    <circle class="score-gauge__track" cx="70" cy="70" r="50"></circle>
+    <circle
+      class="score-gauge__value"
+      cx="70"
+      cy="70"
+      r="50"
+      stroke-dasharray="{{ circumference }}"
+      stroke-dashoffset="{{ offset }}"
+    ></circle>
+    <text class="score-gauge__score" x="70" y="65">{{ safe_score|score }}</text>
+    <text class="score-gauge__unit" x="70" y="84">/100</text>
+  </svg>
+  <figcaption>
+    <span>{{ label }}</span>
+  </figcaption>
+</figure>
+{%- endmacro %}

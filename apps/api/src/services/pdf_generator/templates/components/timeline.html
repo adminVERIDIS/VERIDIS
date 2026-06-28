@@ -1,0 +1,18 @@
+{% macro render(phases) -%}
+<div class="timeline" role="list" aria-label="Feuille de route corrective">
+  {% for phase in phases %}
+  <section class="timeline__phase" role="listitem">
+    <div class="timeline__dot"></div>
+    <h3>{{ phase.label }}</h3>
+    <p>{{ phase.count }} action{{ "s" if phase.count != 1 else "" }}</p>
+    <ul>
+      {% for item in phase["items"] %}
+      <li>{{ item.title }}</li>
+      {% else %}
+      <li>Aucune action prioritaire.</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+{%- endmacro %}

@@ -1,0 +1,286 @@
+{% import "components/score_gauge.html" as gauge %}
+{% import "components/status_badge.html" as badge %}
+{% import "components/esrs_detail.html" as esrs_detail %}
+{% import "components/action_plan.html" as action_plan %}
+{% import "components/timeline.html" as timeline_component %}
+
+{% macro report_header(page_number, section_label) -%}
+<header class="report-header">
+  <div class="brand-lockup" aria-label="{{ brand.name }}">
+    <div class="brand-mark">V</div>
+    <div>
+      <strong>{{ brand.name }}</strong>
+      <span>{{ brand.product }}</span>
+    </div>
+  </div>
+  <div class="report-header__meta">
+    <span>{{ company.name }}</span>
+    <span>{{ generated_at|date_fr }}</span>
+    <span>Page {{ page_number }}/{{ total_pages }}</span>
+  </div>
+</header>
+{%- endmacro %}
+
+{% macro report_footer() -%}
+<footer class="report-footer">
+  <span>G&eacute;n&eacute;r&eacute; par CSRD Validator - Document confidentiel</span>
+</footer>
+{%- endmacro %}
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rapport de conformit&eacute; CSRD - {{ company.name }}</title>
+  <style>{% raw %}{{ INLINE_PRINT_CSS }}{% endraw %}</style>
+</head>
+<body>
+  <section class="report-page cover-page" data-report-page="1" aria-label="Couverture">
+    <div class="cover-page__top">
+      <div class="brand-lockup brand-lockup--cover">
+        <div class="brand-mark">V</div>
+        <div>
+          <strong>{{ brand.name }}</strong>
+          <span>{{ brand.product }}</span>
+        </div>
+      </div>
+      <span class="document-pill">Document confidentiel</span>
+    </div>
+
+    <main class="cover-page__main">
+      <p class="eyebrow">Rapport de conformit&eacute; CSRD</p>
+      <h1>{{ company.name }}</h1>
+      <p class="cover-page__subtitle">
+        Exercice {{ report.exercise }} - Evaluation documentaire ESRS et plan d'action priorise.
+      </p>
+      <div class="cover-page__score">
+        {{ gauge.render(score.value, "Score global", score.status) }}
+        <div>
+          {{ badge.render(score.status, score.label) }}
+          <p>
+            Couverture analysee {{ score.coverage|pct }}. Rapport genere a partir de
+            <span class="mono">{{ report.source }}</span>.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="cover-page__facts">
+      <div>
+        <span>SIREN</span>
+        <strong>{{ company.siren }}</strong>
+      </div>
+      <div>
+        <span>Secteur</span>
+        <strong>{{ company.sector }}</strong>
+      </div>
+      <div>
+        <span>Effectif</span>
+        <strong>{{ company.workforce }}</strong>
+      </div>
+      <div>
+        <span>Echeance</span>
+        <strong>{{ report.deadline|date_fr }}</strong>
+      </div>
+    </div>
+    {{ report_footer() }}
+  </section>
+
+  <section class="report-page" data-report-page="2" aria-label="Synthese executive">
+    {{ report_header(2, "Synthese executive") }}
+    <main class="page-content">
+      <p class="eyebrow">Synthese executive</p>
+      <h2>Lecture rapide de la conformit&eacute;</h2>
+      <div class="summary-layout">
+        {{ gauge.render(score.value, "Score VERIDIS", score.status) }}
+        <div class="summary-card summary-card--dominant">
+          <span>Statut global</span>
+          <strong>{{ score.label }}</strong>
+          <p>
+            Le score combine la couverture des exigences, la qualite des preuves,
+            les incoherences detectees et les penalites d'impact.
+          </p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi"><span>Couverture</span><strong>{{ score.coverage|pct }}</strong></div>
+        <div class="kpi"><span>Preuves presentes</span><strong>{{ dashboard.present_count }}/{{ dashboard.extraction_count }}</strong></div>
+        <div class="kpi"><span>ESRS conformes</span><strong>{{ dashboard.esrs_completed }}/12</strong></div>
+        <div class="kpi"><span>Ecarts critiques</span><strong>{{ dashboard.severity_counts.critique }}</strong></div>
+      </div>
+
+      <div class="executive-notes">
+        <section>
+          <h3>Messages cles</h3>
+          <ul class="check-list">
+            <li>Les exigences ESRS sont structurees par norme pour faciliter la revue interne.</li>
+            <li>Les ecarts sont classes par impact et delai recommande.</li>
+            <li>Les actions priorisees alimentent directement une feuille de route corrective.</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Repartition des risques</h3>
+          <div class="severity-stack">
+            <div><span>Critique</span><strong>{{ dashboard.severity_counts.critique }}</strong></div>
+            <div><span>Majeur</span><strong>{{ dashboard.severity_counts.majeur }}</strong></div>
+            <div><span>Mineur</span><strong>{{ dashboard.severity_counts.mineur }}</strong></div>
+            <div><span>Info</span><strong>{{ dashboard.severity_counts.info }}</strong></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    {{ report_footer() }}
+  </section>
+
+  <section class="report-page" data-report-page="3" aria-label="Dashboard scores ESRS">
+    {{ report_header(3, "Dashboard") }}
+    <main class="page-content">
+      <p class="eyebrow">Dashboard</p>
+      <h2>Scores par norme ESRS</h2>
+      <div class="bar-chart" role="img" aria-label="Scores par norme ESRS">
+        {% for bar in dashboard.score_bars %}
+        <div class="bar-chart__row">
+          <span>{{ bar.code }}</span>
+          <div class="bar-chart__track">
+            <div class="bar-chart__fill bar-chart__fill--{{ bar.status }}" style="width: {{ bar.width }}%"></div>
+          </div>
+          <strong>{{ bar.score|score }}</strong>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="dashboard-grid">
+        <section class="insight-panel">
+          <h3>Etat des normes</h3>
+          <svg viewBox="0 0 420 180" class="donut-chart" role="img" aria-label="Repartition des statuts ESRS">
+            <circle cx="90" cy="90" r="58" class="donut-chart__track"></circle>
+            <circle cx="90" cy="90" r="58" class="donut-chart__complete" stroke-dasharray="{{ dashboard.esrs_completed * 30 }} 360"></circle>
+            <circle cx="90" cy="90" r="42" fill="#ffffff"></circle>
+            <text x="90" y="86" text-anchor="middle" class="donut-chart__value">{{ dashboard.esrs_completed }}</text>
+            <text x="90" y="108" text-anchor="middle" class="donut-chart__label">conformes</text>
+            <text x="190" y="64">Conformes: {{ dashboard.esrs_completed }}</text>
+            <text x="190" y="94">Partiels: {{ dashboard.esrs_partial }}</text>
+            <text x="190" y="124">Non conformes: {{ dashboard.esrs_missing }}</text>
+          </svg>
+        </section>
+        <section class="insight-panel">
+          <h3>Lecture attendue</h3>
+          <p>
+            Les normes a faible score ou a forte densite d'ecarts doivent etre traitees
+            avant les actions de documentation secondaire.
+          </p>
+          <p>
+            Le plan d'action pages 17 a 20 reprend ces priorites avec delai, effort et
+            responsable recommande.
+          </p>
+        </section>
+      </div>
+    </main>
+    {{ report_footer() }}
+  </section>
+
+  <section class="report-page" data-report-page="4" aria-label="Dashboard ecarts">
+    {{ report_header(4, "Dashboard") }}
+    <main class="page-content">
+      <p class="eyebrow">Dashboard</p>
+      <h2>Carte de chaleur des ecarts</h2>
+      <div class="heatmap" role="img" aria-label="Densite des ecarts par norme">
+        {% for cell in dashboard.gap_heatmap %}
+        <div class="heatmap__cell" style="--intensity: {{ 0.18 + cell.intensity * 0.72 }}">
+          <strong>{{ cell.code }}</strong>
+          <span>{{ cell.gap_count }} ecart{{ "s" if cell.gap_count != 1 else "" }}</span>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="priority-list">
+        <h3>Ecarts prioritaires</h3>
+        {% for gap in gaps[:6] %}
+        <article>
+          <div>
+            <strong>{{ gap.requirement_code }}</strong>
+            <span>{{ gap.severity_label }} - impact {{ gap.impact_score|score }}</span>
+          </div>
+          <p>{{ gap.description }}</p>
+        </article>
+        {% else %}
+        <article><p>Aucun ecart prioritaire detecte.</p></article>
+        {% endfor %}
+      </div>
+    </main>
+    {{ report_footer() }}
+  </section>
+
+  {% for item in esrs_pages %}
+  <section class="report-page" data-report-page="{{ loop.index + 4 }}" aria-label="Detail {{ item.code }}">
+    {{ report_header(loop.index + 4, "Detail ESRS") }}
+    <main class="page-content">
+      {{ esrs_detail.render(item) }}
+    </main>
+    {{ report_footer() }}
+  </section>
+  {% endfor %}
+
+  {% for page in action_pages %}
+  <section class="report-page" data-report-page="{{ page.page_number }}" aria-label="Plan d'action {{ page.title }}">
+    {{ report_header(page.page_number, "Plan d'action") }}
+    <main class="page-content">
+      <p class="eyebrow">Plan d'action priorise</p>
+      <h2>{{ page.title }}</h2>
+      <p class="body-copy">{{ page.description }}</p>
+      <div class="action-list">
+        {% for item in page["items"] %}
+        {{ action_plan.render(item) }}
+        {% else %}
+        <div class="empty-state">Aucune action prioritaire pour cette section.</div>
+        {% endfor %}
+      </div>
+      {% if loop.index == 4 %}
+      {{ timeline_component.render(timeline) }}
+      {% endif %}
+    </main>
+    {{ report_footer() }}
+  </section>
+  {% endfor %}
+
+  <section class="report-page methodology-page" data-report-page="21" aria-label="Methodologie et limites">
+    {{ report_header(21, "Methodologie") }}
+    <main class="page-content">
+      <p class="eyebrow">Methodologie et limites</p>
+      <h2>Cadre de calcul</h2>
+      <div class="methodology-grid">
+        <section>
+          <h3>Calcul du score</h3>
+          <ol class="numbered-list">
+            <li>Extraction des informations ESRS depuis le document source.</li>
+            <li>Evaluation de presence, qualite, confiance et coherences internes.</li>
+            <li>Application des penalites par severite et impact estime.</li>
+            <li>Consolidation du score global sur 100 et statut de conformite.</li>
+          </ol>
+        </section>
+        <section>
+          <h3>Limites</h3>
+          <ul class="compact-list">
+            {% for limit in methodology.limits %}
+            <li><span>{{ limit }}</span></li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+
+      <section class="audit-trace">
+        <h3>Trace technique</h3>
+        <div class="trace-grid">
+          <div><span>ID rapport</span><strong class="mono">{{ report.id }}</strong></div>
+          <div><span>Statut analyse</span><strong>{{ report.status }}</strong></div>
+          <div><span>Fichier source</span><strong>{{ report.source }}</strong></div>
+          <div><span>Date generation</span><strong>{{ generated_at|date_fr }}</strong></div>
+        </div>
+      </section>
+    </main>
+    {{ report_footer() }}
+  </section>
+</body>
+</html>
