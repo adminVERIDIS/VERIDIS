@@ -1,0 +1,456 @@
+{
+  "esrs_code": "G1",
+  "esrs_name": "Conduite des affaires",
+  "esrs_name_en": "Business conduct",
+  "category": "governance",
+  "category_label": "Gouvernance",
+  "icon": "ShieldCheck",
+  "color": "#7C3AED",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 6,
+  "requirements": [
+    {
+      "id": "G1-1",
+      "code": "G1-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Ethique",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour G1-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "G1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques de conduite des affaires et culture d'entreprise",
+      "intitule_officiel_en": "Business conduct policies and corporate culture",
+      "intitule_detaille": "Culture ethique, integrite, procedures et responsabilites.",
+      "description_simple": "Expliquez les regles d'ethique, leur gouvernance et leur diffusion.",
+      "critical_for_mvp": true,
+      "ordre": 1
+    },
+    {
+      "id": "G1-2",
+      "code": "G1-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Fournisseurs",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour G1-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "G1-1",
+        "G1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Relations avec les fournisseurs",
+      "intitule_officiel_en": "Management of relationships with suppliers",
+      "intitule_detaille": "Gestion responsable des relations fournisseurs.",
+      "description_simple": "Decrivez les pratiques de selection, paiement et evaluation fournisseurs.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "G1-3",
+      "code": "G1-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Anti-corruption",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour G1-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "G1-1"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Prevention et detection de la corruption",
+      "intitule_officiel_en": "Prevention and detection of corruption and bribery",
+      "intitule_detaille": "Dispositifs anticorruption et formation.",
+      "description_simple": "Indiquez procedures, controles, formations et canaux d'alerte anticorruption.",
+      "critical_for_mvp": true,
+      "ordre": 3
+    },
+    {
+      "id": "G1-4",
+      "code": "G1-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Incidents corruption",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour G1-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "G1-1",
+        "G1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Incidents de corruption ou de pots-de-vin",
+      "intitule_officiel_en": "Incidents of corruption or bribery",
+      "intitule_detaille": "Incidents, condamnations et mesures correctives.",
+      "description_simple": "Publiez les incidents significatifs et les actions correctives.",
+      "critical_for_mvp": true,
+      "ordre": 4
+    },
+    {
+      "id": "G1-5",
+      "code": "G1-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Lobbying",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour G1-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "G1-1",
+        "G1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Influence politique et activites de lobbying",
+      "intitule_officiel_en": "Political influence and lobbying activities",
+      "intitule_detaille": "Contributions politiques et lobbying.",
+      "description_simple": "Renseignez les activites de lobbying et contributions politiques si applicables.",
+      "critical_for_mvp": false,
+      "ordre": 5
+    },
+    {
+      "id": "G1-6",
+      "code": "G1-6",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Paiements fournisseurs",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour G1-6, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "G1-1",
+        "G1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Pratiques de paiement",
+      "intitule_officiel_en": "Payment practices",
+      "intitule_detaille": "Delais et pratiques de paiement fournisseurs.",
+      "description_simple": "Indiquez les delais moyens de paiement et litiges significatifs.",
+      "critical_for_mvp": true,
+      "ordre": 6
+    }
+  ]
+}

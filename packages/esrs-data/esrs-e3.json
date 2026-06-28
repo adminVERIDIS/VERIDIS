@@ -1,0 +1,354 @@
+{
+  "esrs_code": "E3",
+  "esrs_name": "Ressources aquatiques et marines",
+  "esrs_name_en": "Water and marine resources",
+  "category": "environmental",
+  "category_label": "Environnemental",
+  "icon": "Leaf",
+  "color": "#059669",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 5,
+  "requirements": [
+    {
+      "id": "E3-1",
+      "code": "E3-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Ressources aquatiques et marines",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E3-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques eau et ressources marines",
+      "intitule_officiel_en": "Policies related to water and marine resources",
+      "intitule_detaille": "Politiques eau et ressources marines",
+      "description_simple": "Decrire les politiques relatives a l'eau.",
+      "critical_for_mvp": false,
+      "ordre": 1
+    },
+    {
+      "id": "E3-2",
+      "code": "E3-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Ressources aquatiques et marines",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E3-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Actions et ressources eau",
+      "intitule_officiel_en": "Actions and resources related to water and marine resources",
+      "intitule_detaille": "Actions et ressources eau",
+      "description_simple": "Lister les actions de gestion de l'eau.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "E3-3",
+      "code": "E3-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Ressources aquatiques et marines",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E3-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Cibles eau",
+      "intitule_officiel_en": "Targets related to water and marine resources",
+      "intitule_detaille": "Cibles eau",
+      "description_simple": "Presenter les cibles de prelevement, consommation ou rejet.",
+      "critical_for_mvp": false,
+      "ordre": 3
+    },
+    {
+      "id": "E3-4",
+      "code": "E3-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Ressources aquatiques et marines",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E3-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Consommation d'eau",
+      "intitule_officiel_en": "Water consumption",
+      "intitule_detaille": "Consommation d'eau",
+      "description_simple": "Publier les volumes d'eau pertinents.",
+      "critical_for_mvp": false,
+      "ordre": 4
+    },
+    {
+      "id": "E3-5",
+      "code": "E3-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Ressources aquatiques et marines",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E3-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Effets financiers eau",
+      "intitule_officiel_en": "Anticipated financial effects from water and marine resources-related impacts, risks and opportunities",
+      "intitule_detaille": "Effets financiers eau",
+      "description_simple": "Expliquer les effets financiers attendus lies a l'eau.",
+      "critical_for_mvp": false,
+      "ordre": 5
+    }
+  ]
+}

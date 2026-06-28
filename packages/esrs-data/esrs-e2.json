@@ -1,0 +1,422 @@
+{
+  "esrs_code": "E2",
+  "esrs_name": "Pollution",
+  "esrs_name_en": "Pollution",
+  "category": "environmental",
+  "category_label": "Environnemental",
+  "icon": "Leaf",
+  "color": "#059669",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 6,
+  "requirements": [
+    {
+      "id": "E2-1",
+      "code": "E2-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Pollution",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E2-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques liees a la pollution",
+      "intitule_officiel_en": "Policies related to pollution",
+      "intitule_detaille": "Politiques liees a la pollution",
+      "description_simple": "Decrire les politiques de prevention et reduction des pollutions.",
+      "critical_for_mvp": false,
+      "ordre": 1
+    },
+    {
+      "id": "E2-2",
+      "code": "E2-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Pollution",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E2-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Actions et ressources pollution",
+      "intitule_officiel_en": "Actions and resources related to pollution",
+      "intitule_detaille": "Actions et ressources pollution",
+      "description_simple": "Lister les actions et ressources pour reduire les pollutions.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "E2-3",
+      "code": "E2-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Pollution",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E2-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Cibles pollution",
+      "intitule_officiel_en": "Targets related to pollution",
+      "intitule_detaille": "Cibles pollution",
+      "description_simple": "Presenter les cibles de reduction des polluants materiels.",
+      "critical_for_mvp": false,
+      "ordre": 3
+    },
+    {
+      "id": "E2-4",
+      "code": "E2-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Pollution",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E2-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Pollution air, eau et sol",
+      "intitule_officiel_en": "Pollution of air, water and soil",
+      "intitule_detaille": "Pollution air, eau et sol",
+      "description_simple": "Publier les emissions polluantes significatives.",
+      "critical_for_mvp": false,
+      "ordre": 4
+    },
+    {
+      "id": "E2-5",
+      "code": "E2-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Pollution",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E2-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Substances préoccupantes",
+      "intitule_officiel_en": "Substances of concern and substances of very high concern",
+      "intitule_detaille": "Substances préoccupantes",
+      "description_simple": "Identifier les substances concernees et leur gestion.",
+      "critical_for_mvp": false,
+      "ordre": 5
+    },
+    {
+      "id": "E2-6",
+      "code": "E2-6",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Pollution",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E2-6, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Effets financiers pollution",
+      "intitule_officiel_en": "Anticipated financial effects from pollution-related impacts, risks and opportunities",
+      "intitule_detaille": "Effets financiers pollution",
+      "description_simple": "Expliquer les effets financiers attendus lies a la pollution.",
+      "critical_for_mvp": false,
+      "ordre": 6
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "esrs_code": "E5",
+  "esrs_name": "Utilisation des ressources et economie circulaire",
+  "esrs_name_en": "Resource use and circular economy",
+  "category": "environmental",
+  "category_label": "Environnemental",
+  "icon": "Leaf",
+  "color": "#059669",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 6,
+  "requirements": [
+    {
+      "id": "E5-1",
+      "code": "E5-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Utilisation des ressources et economie circulaire",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E5-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques circularite",
+      "intitule_officiel_en": "Policies related to resource use and circular economy",
+      "intitule_detaille": "Politiques circularite",
+      "description_simple": "Decrire les politiques de circularite.",
+      "critical_for_mvp": false,
+      "ordre": 1
+    },
+    {
+      "id": "E5-2",
+      "code": "E5-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Utilisation des ressources et economie circulaire",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E5-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Actions et ressources circularite",
+      "intitule_officiel_en": "Actions and resources related to resource use and circular economy",
+      "intitule_detaille": "Actions et ressources circularite",
+      "description_simple": "Lister les actions et ressources associees.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "E5-3",
+      "code": "E5-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Utilisation des ressources et economie circulaire",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E5-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Cibles circularite",
+      "intitule_officiel_en": "Targets related to resource use and circular economy",
+      "intitule_detaille": "Cibles circularite",
+      "description_simple": "Presenter les cibles de circularite.",
+      "critical_for_mvp": false,
+      "ordre": 3
+    },
+    {
+      "id": "E5-4",
+      "code": "E5-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Utilisation des ressources et economie circulaire",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E5-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Flux entrants de ressources",
+      "intitule_officiel_en": "Resource inflows",
+      "intitule_detaille": "Flux entrants de ressources",
+      "description_simple": "Publier les flux entrants de ressources materielles.",
+      "critical_for_mvp": false,
+      "ordre": 4
+    },
+    {
+      "id": "E5-5",
+      "code": "E5-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Utilisation des ressources et economie circulaire",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E5-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Flux sortants de ressources",
+      "intitule_officiel_en": "Resource outflows",
+      "intitule_detaille": "Flux sortants de ressources",
+      "description_simple": "Publier produits, matieres et dechets sortants.",
+      "critical_for_mvp": false,
+      "ordre": 5
+    },
+    {
+      "id": "E5-6",
+      "code": "E5-6",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Utilisation des ressources et economie circulaire",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour E5-6, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Effets financiers circularite",
+      "intitule_officiel_en": "Anticipated financial effects from resource use and circular economy-related impacts, risks and opportunities",
+      "intitule_detaille": "Effets financiers circularite",
+      "description_simple": "Expliquer les effets financiers attendus lies aux ressources.",
+      "critical_for_mvp": false,
+      "ordre": 6
+    }
+  ]
+}

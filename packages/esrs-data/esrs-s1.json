@@ -1,0 +1,1286 @@
+{
+  "esrs_code": "S1",
+  "esrs_name": "Main-d'oeuvre propre",
+  "esrs_name_en": "Own workforce",
+  "category": "social",
+  "category_label": "Social",
+  "icon": "Users",
+  "color": "#2563EB",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 17,
+  "requirements": [
+    {
+      "id": "S1-1",
+      "code": "S1-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Politiques RH",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques relatives a la main-d'oeuvre propre",
+      "intitule_officiel_en": "Policies related to own workforce",
+      "intitule_detaille": "Politiques RH couvrant impacts, risques et opportunites.",
+      "description_simple": "Decrivez les politiques RH applicables aux salaries et travailleurs directs.",
+      "critical_for_mvp": true,
+      "ordre": 1
+    },
+    {
+      "id": "S1-2",
+      "code": "S1-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Dialogue social",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Dialogue avec les travailleurs et representants",
+      "intitule_officiel_en": "Processes for engaging with own workforce and workers' representatives about impacts",
+      "intitule_detaille": "Processus de consultation et dialogue social.",
+      "description_simple": "Expliquez comment les travailleurs sont consultes sur les impacts qui les concernent.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "S1-3",
+      "code": "S1-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Alertes et remediation",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Remediation et canaux d'alerte",
+      "intitule_officiel_en": "Processes to remediate negative impacts and channels for own workforce to raise concerns",
+      "intitule_detaille": "Canaux de reclamation et correction des impacts negatifs.",
+      "description_simple": "Indiquez les canaux d'alerte, leur accessibilite et le suivi des signalements.",
+      "critical_for_mvp": false,
+      "ordre": 3
+    },
+    {
+      "id": "S1-4",
+      "code": "S1-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Actions RH",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_long_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Actions sur impacts, risques et opportunites",
+      "intitule_officiel_en": "Taking action on material impacts on own workforce",
+      "intitule_detaille": "Actions et ressources RH pour gerer les impacts materiels.",
+      "description_simple": "Listez les actions RH, ressources, echeances et effets attendus.",
+      "critical_for_mvp": false,
+      "ordre": 4
+    },
+    {
+      "id": "S1-5",
+      "code": "S1-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Cibles RH",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_et_commentaire",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Cibles liees a la main-d'oeuvre propre",
+      "intitule_officiel_en": "Targets related to managing material impacts, risks and opportunities",
+      "intitule_detaille": "Cibles RH associees aux impacts, risques et opportunites.",
+      "description_simple": "Indiquez les objectifs RH suivis, la base de calcul et les progres.",
+      "critical_for_mvp": true,
+      "ordre": 5
+    },
+    {
+      "id": "S1-6",
+      "code": "S1-6",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Effectifs salaries",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_effectifs",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-6, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Caracteristiques des salaries",
+      "intitule_officiel_en": "Characteristics of the undertaking's employees",
+      "intitule_detaille": "Effectifs par type de contrat, pays, genre et autres dimensions utiles.",
+      "description_simple": "Renseignez la structure des salaries et les variations d'effectifs.",
+      "critical_for_mvp": true,
+      "ordre": 6
+    },
+    {
+      "id": "S1-7",
+      "code": "S1-7",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Travailleurs non salaries",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_effectifs",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-7, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Caracteristiques des travailleurs non salaries",
+      "intitule_officiel_en": "Characteristics of non-employee workers in own workforce",
+      "intitule_detaille": "Travailleurs non salaries inclus dans la main-d'oeuvre propre.",
+      "description_simple": "Renseignez interimaires, freelances ou contractants significatifs.",
+      "critical_for_mvp": false,
+      "ordre": 7
+    },
+    {
+      "id": "S1-8",
+      "code": "S1-8",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Relations sociales",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_pourcentages",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-8, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Couverture convention collective et dialogue social",
+      "intitule_officiel_en": "Collective bargaining coverage and social dialogue",
+      "intitule_detaille": "Couverture de la negociation collective et dialogue social.",
+      "description_simple": "Indiquez les taux de couverture et instances de dialogue social.",
+      "critical_for_mvp": false,
+      "ordre": 8
+    },
+    {
+      "id": "S1-9",
+      "code": "S1-9",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Diversite",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_pourcentages",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-9, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Indicateurs de diversite",
+      "intitule_officiel_en": "Diversity metrics",
+      "intitule_detaille": "Diversite des effectifs et organes de direction selon criteres disponibles.",
+      "description_simple": "Publiez les indicateurs de diversite pertinents, notamment genre et age.",
+      "critical_for_mvp": true,
+      "ordre": 9
+    },
+    {
+      "id": "S1-10",
+      "code": "S1-10",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Salaires adequats",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-10, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Salaires adequats",
+      "intitule_officiel_en": "Adequate wages",
+      "intitule_detaille": "Informations sur la couverture par des salaires adequats.",
+      "description_simple": "Expliquez comment l'entreprise verifie l'adequation des salaires.",
+      "critical_for_mvp": false,
+      "ordre": 10
+    },
+    {
+      "id": "S1-11",
+      "code": "S1-11",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Protection sociale",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-11, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Protection sociale",
+      "intitule_officiel_en": "Social protection",
+      "intitule_detaille": "Couverture par dispositifs de protection sociale.",
+      "description_simple": "Indiquez la couverture des travailleurs par les protections sociales principales.",
+      "critical_for_mvp": false,
+      "ordre": 11
+    },
+    {
+      "id": "S1-12",
+      "code": "S1-12",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Handicap",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_pourcentages",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-12, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Personnes en situation de handicap",
+      "intitule_officiel_en": "Persons with disabilities",
+      "intitule_detaille": "Indicateurs sur les travailleurs en situation de handicap.",
+      "description_simple": "Renseignez les donnees disponibles et mesures d'inclusion handicap.",
+      "critical_for_mvp": false,
+      "ordre": 12
+    },
+    {
+      "id": "S1-13",
+      "code": "S1-13",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Formation",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_heures",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-13, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Formation et developpement des competences",
+      "intitule_officiel_en": "Training and skills development metrics",
+      "intitule_detaille": "Heures de formation, entretiens et developpement des competences.",
+      "description_simple": "Publiez les heures de formation et la couverture des revues de performance.",
+      "critical_for_mvp": true,
+      "ordre": 13
+    },
+    {
+      "id": "S1-14",
+      "code": "S1-14",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Sante securite",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_taux",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-14, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Sante et securite",
+      "intitule_officiel_en": "Health and safety metrics",
+      "intitule_detaille": "Accidents, systeme de management, incidents et absenteisme si pertinent.",
+      "description_simple": "Publiez les indicateurs sante-securite, accidents et couverture du systeme.",
+      "critical_for_mvp": true,
+      "ordre": 14
+    },
+    {
+      "id": "S1-15",
+      "code": "S1-15",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Equilibre vie pro perso",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_pourcentages",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-15, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Equilibre vie professionnelle et vie privee",
+      "intitule_officiel_en": "Work-life balance metrics",
+      "intitule_detaille": "Droits aux conges familiaux et recours effectif.",
+      "description_simple": "Indiquez l'acces et l'utilisation des dispositifs d'equilibre vie pro/perso.",
+      "critical_for_mvp": false,
+      "ordre": 15
+    },
+    {
+      "id": "S1-16",
+      "code": "S1-16",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Remuneration equitable",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_pourcentages",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-16, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Indicateurs de remuneration",
+      "intitule_officiel_en": "Compensation metrics",
+      "intitule_detaille": "Ecart de remuneration femmes-hommes et ratio de remuneration.",
+      "description_simple": "Publiez les ecarts de remuneration et expliquez les methodes de calcul.",
+      "critical_for_mvp": true,
+      "ordre": 16
+    },
+    {
+      "id": "S1-17",
+      "code": "S1-17",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Droits humains",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour S1-17, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "S1-1",
+        "S1-4",
+        "S1-5"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Incidents, plaintes et impacts graves droits humains",
+      "intitule_officiel_en": "Incidents, complaints and severe human rights impacts",
+      "intitule_detaille": "Plaintes, incidents et impacts graves relatifs aux droits humains.",
+      "description_simple": "Renseignez les incidents, plaintes, suites donnees et mesures correctives.",
+      "critical_for_mvp": true,
+      "ordre": 17
+    }
+  ]
+}

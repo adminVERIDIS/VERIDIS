@@ -1,0 +1,354 @@
+{
+  "esrs_code": "S4",
+  "esrs_name": "Consommateurs et utilisateurs finaux",
+  "esrs_name_en": "Consumers and end-users",
+  "category": "social",
+  "category_label": "Social",
+  "icon": "Users",
+  "color": "#2563EB",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 5,
+  "requirements": [
+    {
+      "id": "S4-1",
+      "code": "S4-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Consommateurs et utilisateurs finaux",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour S4-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques consommateurs",
+      "intitule_officiel_en": "Policies related to consumers and end-users",
+      "intitule_detaille": "Politiques consommateurs",
+      "description_simple": "Decrire les politiques envers consommateurs et utilisateurs.",
+      "critical_for_mvp": false,
+      "ordre": 1
+    },
+    {
+      "id": "S4-2",
+      "code": "S4-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Consommateurs et utilisateurs finaux",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour S4-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Dialogue consommateurs",
+      "intitule_officiel_en": "Processes for engaging with consumers and end-users about impacts",
+      "intitule_detaille": "Dialogue consommateurs",
+      "description_simple": "Expliquer les mecanismes de dialogue.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "S4-3",
+      "code": "S4-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Consommateurs et utilisateurs finaux",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour S4-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Canaux de reclamation consommateurs",
+      "intitule_officiel_en": "Processes to remediate negative impacts and channels for consumers and end-users",
+      "intitule_detaille": "Canaux de reclamation consommateurs",
+      "description_simple": "Decrire les canaux de reclamation.",
+      "critical_for_mvp": false,
+      "ordre": 3
+    },
+    {
+      "id": "S4-4",
+      "code": "S4-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Consommateurs et utilisateurs finaux",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour S4-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Actions consommateurs",
+      "intitule_officiel_en": "Taking action on material impacts on consumers and end-users",
+      "intitule_detaille": "Actions consommateurs",
+      "description_simple": "Lister les actions sur impacts materiels.",
+      "critical_for_mvp": false,
+      "ordre": 4
+    },
+    {
+      "id": "S4-5",
+      "code": "S4-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Consommateurs et utilisateurs finaux",
+      "donnees_attendues": {
+        "type": "squelette",
+        "format": "texte_court",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Description simple",
+          "Perimetre",
+          "Indicateur cle si disponible"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Confirmer la materialite",
+          "2. Identifier les donnees disponibles",
+          "3. Completer la preuve documentaire"
+        ],
+        "exemple_conforme": "Pour S4-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Code officiel present",
+          "Description renseignee",
+          "Source interne identifiee"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Cibles consommateurs",
+      "intitule_officiel_en": "Targets related to consumers and end-users",
+      "intitule_detaille": "Cibles consommateurs",
+      "description_simple": "Presenter les cibles associees.",
+      "critical_for_mvp": false,
+      "ordre": 5
+    }
+  ]
+}

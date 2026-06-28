@@ -1,0 +1,683 @@
+{
+  "esrs_code": "E1",
+  "esrs_name": "Changement climatique",
+  "esrs_name_en": "Climate change",
+  "category": "environmental",
+  "category_label": "Environnemental",
+  "icon": "Leaf",
+  "color": "#059669",
+  "effective_date": "2024-01-01",
+  "version": "1.0.0",
+  "requirement_count": 9,
+  "requirements": [
+    {
+      "id": "E1-1",
+      "code": "E1-1",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Strategie climat",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Objectifs 2030 et long terme",
+          "Leviers de reduction",
+          "CAPEX/OPEX de transition",
+          "Dependances aux energies fossiles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-1, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Objectifs chiffres",
+          "Annees de reference",
+          "Trajectoire de reduction",
+          "Lien avec plan financier"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-2",
+        "E1-3",
+        "E1-4",
+        "E1-6"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Plan de transition pour l'attenuation du changement climatique",
+      "intitule_officiel_en": "Transition plan for climate change mitigation",
+      "intitule_detaille": "Description du plan de transition compatible avec une economie bas carbone.",
+      "description_simple": "Expliquez comment l'entreprise reduit ses emissions et aligne son modele avec les objectifs climatiques.",
+      "critical_for_mvp": true,
+      "ordre": 1
+    },
+    {
+      "id": "E1-2",
+      "code": "E1-2",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Politiques climat",
+      "donnees_attendues": {
+        "type": "qualitatif_structure",
+        "format": "texte_long",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Perimetre couvert",
+          "Politique ou processus applicable",
+          "Actions et responsables",
+          "Indicateurs ou preuves disponibles"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-2, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-1",
+        "E1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Politiques liees au climat",
+      "intitule_officiel_en": "Policies related to climate change mitigation and adaptation",
+      "intitule_detaille": "Politiques couvrant attenuation, adaptation, energie et risques climatiques.",
+      "description_simple": "Listez les politiques climat adoptees et le perimetre qu'elles couvrent.",
+      "critical_for_mvp": false,
+      "ordre": 2
+    },
+    {
+      "id": "E1-3",
+      "code": "E1-3",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Actions climat",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_long_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Actions prioritaires",
+          "Ressources allouees",
+          "Calendrier",
+          "Effets attendus"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-3, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Perimetre explicite",
+          "Responsable identifie",
+          "Indicateurs ou preuve documentaire",
+          "Lien avec impacts, risques ou opportunites materiels"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-1",
+        "E1-2",
+        "E1-4"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Actions et ressources liees aux politiques climat",
+      "intitule_officiel_en": "Actions and resources in relation to climate change policies",
+      "intitule_detaille": "Actions, budgets et ressources pour deployer les politiques climat.",
+      "description_simple": "Decrivez les actions climat, leurs responsables, budgets, gains attendus et echeances.",
+      "critical_for_mvp": false,
+      "ordre": 3
+    },
+    {
+      "id": "E1-4",
+      "code": "E1-4",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Cibles climat",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_et_commentaire",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Cible",
+          "Annee de reference",
+          "Horizon",
+          "Perimetre scopes 1, 2, 3"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-4, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Cible quantifiee",
+          "Base year",
+          "Scope couvert",
+          "Progression annuelle"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-1",
+        "E1-5",
+        "E1-6"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Cibles liees a l'attenuation et a l'adaptation climatiques",
+      "intitule_officiel_en": "Targets related to climate change mitigation and adaptation",
+      "intitule_detaille": "Cibles climat, perimetre, methodologie et progres.",
+      "description_simple": "Indiquez vos objectifs de reduction, la base de calcul et le suivi annuel.",
+      "critical_for_mvp": true,
+      "ordre": 4
+    },
+    {
+      "id": "E1-5",
+      "code": "E1-5",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Energie",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_mwh",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Consommation totale MWh",
+          "Part renouvelable",
+          "Part fossile",
+          "Intensite energetique si pertinente"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-5, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Unite MWh",
+          "Perimetre coherent",
+          "Mix detaille",
+          "Sources de donnees"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-6"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Consommation et mix energetiques",
+      "intitule_officiel_en": "Energy consumption and mix",
+      "intitule_detaille": "Consommation totale d'energie et repartition par source.",
+      "description_simple": "Renseignez les MWh consommes, renouvelables/non renouvelables et intensites utiles.",
+      "critical_for_mvp": true,
+      "ordre": 5
+    },
+    {
+      "id": "E1-6",
+      "code": "E1-6",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Emissions GES",
+      "donnees_attendues": {
+        "type": "quantitatif",
+        "format": "tableau_tco2e",
+        "longueur_min_mots": null,
+        "elements_obligatoires": [
+          "Scope 1",
+          "Scope 2 market/location based",
+          "Scope 3 categories pertinentes",
+          "Facteurs d'emission"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-6, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "tCO2e",
+          "Scopes separes",
+          "Methodologie explicite",
+          "Comparatif annuel"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-4",
+        "E1-5",
+        "E1-7"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Emissions brutes de GES scopes 1, 2, 3 et emissions totales",
+      "intitule_officiel_en": "Gross Scopes 1, 2, 3 and Total GHG emissions",
+      "intitule_detaille": "Emissions de gaz a effet de serre par scope et total.",
+      "description_simple": "Publiez les emissions en tCO2e pour les scopes 1, 2 et 3 avec methode de calcul.",
+      "critical_for_mvp": true,
+      "ordre": 6
+    },
+    {
+      "id": "E1-7",
+      "code": "E1-7",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Credits carbone",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_long_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Volumes retires",
+          "Type de credit",
+          "Standard de certification",
+          "Separation des reductions brutes"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-7, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Aucun double comptage",
+          "Standard identifie",
+          "Volumes justifies",
+          "Usage transparent"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-6"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Absorptions de GES et credits carbone",
+      "intitule_officiel_en": "GHG removals and GHG mitigation projects financed through carbon credits",
+      "intitule_detaille": "Informations sur absorptions, credits carbone et projets finances.",
+      "description_simple": "Expliquez les credits ou absorptions utilises sans les confondre avec la reduction brute des emissions.",
+      "critical_for_mvp": false,
+      "ordre": 7
+    },
+    {
+      "id": "E1-8",
+      "code": "E1-8",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Prix interne carbone",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_et_montants",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Montant",
+          "Perimetre",
+          "Usage decisionnel",
+          "Evolution prevue"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-8, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Prix explicite",
+          "Perimetre documente",
+          "Lien decisionnel",
+          "Gouvernance"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-1",
+        "E1-3"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Tarification interne du carbone",
+      "intitule_officiel_en": "Internal carbon pricing",
+      "intitule_detaille": "Description des mecanismes internes de prix du carbone.",
+      "description_simple": "Si un prix interne du carbone existe, indiquez son montant, son perimetre et son usage dans les decisions.",
+      "critical_for_mvp": false,
+      "ordre": 8
+    },
+    {
+      "id": "E1-9",
+      "code": "E1-9",
+      "level": 1,
+      "type": "disclosure",
+      "obligation": "mandatory_if_material",
+      "thematique": "Risques financiers climat",
+      "donnees_attendues": {
+        "type": "mixte",
+        "format": "texte_long_et_tableau",
+        "longueur_min_mots": 120,
+        "elements_obligatoires": [
+          "Risques physiques",
+          "Risques de transition",
+          "Opportunites",
+          "Effets financiers anticipes"
+        ]
+      },
+      "guide_remplissage": {
+        "etapes": [
+          "1. Identifier le perimetre et les entites concernees",
+          "2. Decrire le processus ou la politique appliquee",
+          "3. Ajouter les actions, controles, responsables et echeances",
+          "4. Joindre les indicateurs et sources de preuve"
+        ],
+        "exemple_conforme": "Pour E1-9, l'entreprise decrit les politiques, actions, indicateurs et controles retenus, avec perimetre, periode, responsable et source.",
+        "pieges_courants": [
+          "Rester au niveau d'une intention sans preuve ni responsable",
+          "Ne pas preciser le perimetre couvert",
+          "Melanger donnees estimees et donnees mesurees sans explication"
+        ],
+        "ressources": [
+          {
+            "titre": "Commission Delegated Regulation (EU) 2023/2772",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2772",
+            "type": "officiel"
+          },
+          {
+            "titre": "European Commission - Corporate sustainability reporting",
+            "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+            "type": "officiel"
+          }
+        ]
+      },
+      "verification": {
+        "criteres": [
+          "Risques materiels",
+          "Horizon temporel",
+          "Montants ou fourchettes",
+          "Hypotheses explicites"
+        ],
+        "score_max": 100,
+        "ponderation_sectorielle": {
+          "default": 1.0,
+          "high_emission": 1.2,
+          "manufacturing": 1.1,
+          "services": 0.9,
+          "technology": 0.9
+        }
+      },
+      "esrs_liees": [
+        "E1-1",
+        "E1-6"
+      ],
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01",
+      "source_reference": "ESRS Set 1, Commission Delegated Regulation (EU) 2023/2772",
+      "intitule": "Effets financiers anticipes des risques et opportunites climatiques",
+      "intitule_officiel_en": "Anticipated financial effects from material physical and transition risks and potential climate-related opportunities",
+      "intitule_detaille": "Effets financiers attendus des risques physiques, de transition et opportunites climat.",
+      "description_simple": "Expliquez les impacts financiers probables des risques et opportunites climat sur actifs, revenus et couts.",
+      "critical_for_mvp": true,
+      "ordre": 9
+    }
+  ]
+}
