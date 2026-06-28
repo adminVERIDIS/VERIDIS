@@ -5,6 +5,7 @@ description = "VERIDIS CSRD analysis engine"
 requires-python = ">=3.11"
 dependencies = [
   "celery>=5.4.0",
+  "httpx>=0.28.0",
   "jinja2>=3.1.4",
   "openai>=1.50.0",
   "playwright>=1.48.0",

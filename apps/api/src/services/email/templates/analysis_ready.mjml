@@ -1,0 +1,26 @@
+<mjml>
+  <mj-body background-color="#FAFAFA">
+    <mj-section padding="40px 20px">
+      <mj-column width="600px">
+        <mj-text font-size="14px" color="#2563EB" font-weight="700">VERIDIS</mj-text>
+        <mj-text font-size="24px" font-weight="700">
+          {{ prenom }}, votre score Veridis est pret
+        </mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#525252">
+          Pour <strong>{{ entreprise }}</strong>, Veridis estime votre conformite a
+          <strong>{{ score }}/100</strong> sur le secteur {{ secteur }}.
+        </mj-text>
+        <mj-text font-size="16px" font-weight="700">Vos 3 priorites</mj-text>
+        {% for priorite in priorites %}
+        <mj-text font-size="14px" color="#525252">- {{ priorite }}</mj-text>
+        {% endfor %}
+        <mj-button background-color="#2563EB" color="white" border-radius="8px" href="{{ dashboard_url }}">
+          Voir mon plan d'action detaille
+        </mj-button>
+        <mj-text font-size="12px" color="#737373">
+          <a href="{{ unsubscribe_url }}">Se desabonner en un clic</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

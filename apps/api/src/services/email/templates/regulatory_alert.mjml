@@ -1,0 +1,25 @@
+<mjml>
+  <mj-body background-color="#FAFAFA">
+    <mj-section padding="40px 20px">
+      <mj-column width="600px">
+        <mj-text font-size="14px" color="#2563EB" font-weight="700">VERIDIS</mj-text>
+        <mj-text font-size="24px" font-weight="700">
+          Nouvelle exigence ESRS applicable
+        </mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#525252">
+          Bonjour {{ prenom }}, l'exigence <strong>{{ exigence }}</strong> impacte
+          potentiellement {{ entreprise }}.
+        </mj-text>
+        <mj-text font-size="15px" color="#525252"><strong>Ce qui change :</strong> {{ changement }}</mj-text>
+        <mj-text font-size="15px" color="#525252"><strong>Impact :</strong> {{ impact }}</mj-text>
+        <mj-text font-size="15px" color="#525252"><strong>Action :</strong> {{ action }} avant {{ deadline }}.</mj-text>
+        <mj-button background-color="#2563EB" color="white" border-radius="8px" href="{{ cta_url }}">
+          Mettre a jour mon rapport
+        </mj-button>
+        <mj-text font-size="12px" color="#737373">
+          <a href="{{ unsubscribe_url }}">Se desabonner en un clic</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

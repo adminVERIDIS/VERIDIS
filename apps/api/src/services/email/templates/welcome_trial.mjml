@@ -1,0 +1,47 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Inter, system-ui, sans-serif" color="#171717" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#FAFAFA">
+    <mj-section padding="40px 20px">
+      <mj-column width="600px">
+        <mj-text font-size="14px" color="#2563EB" font-weight="700">VERIDIS</mj-text>
+        <mj-text font-size="24px" font-weight="700" padding-top="24px">
+          Bienvenue sur Veridis, {{ prenom }}
+        </mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#525252">
+          Votre entreprise <strong>{{ entreprise }}</strong> a une echeance CSRD le
+          <strong>{{ date_echeance }}</strong>. C'est dans
+          <strong>{{ jours_restant }} jours</strong>.
+        </mj-text>
+        <mj-section background-color="#F5F5F5" border-radius="8px" padding="20px">
+          <mj-text align="center" font-size="14px" color="#737373">
+            Votre conformite estimee
+          </mj-text>
+          <mj-text align="center" font-size="48px" font-weight="700" color="#F59E0B">
+            {{ score_estime }}/100
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#525252">
+            {{ interpretation_score }}
+          </mj-text>
+        </mj-section>
+        <mj-button background-color="#2563EB" color="white" border-radius="8px" href="{{ cta_url }}">
+          Uploader mon premier document
+        </mj-button>
+        <mj-text font-size="14px" color="#525252" padding-top="24px">
+          Voir comment ca marche en 90 secondes : <a href="{{ video_url }}">ouvrir la video</a>
+        </mj-text>
+        <mj-divider border-color="#E5E5E5" padding-top="32px" />
+        <mj-text font-size="14px" line-height="20px" color="#525252">
+          PS : Je suis le fondateur de Veridis. Si vous avez la moindre question,
+          repondez directement a cet email, je lis tout personnellement.
+        </mj-text>
+        <mj-text font-size="12px" color="#737373">
+          <a href="{{ unsubscribe_url }}">Se desabonner en un clic</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

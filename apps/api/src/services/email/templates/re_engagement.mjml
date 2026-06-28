@@ -1,0 +1,28 @@
+<mjml>
+  <mj-body background-color="#FAFAFA">
+    <mj-section padding="40px 20px">
+      <mj-column width="600px">
+        <mj-text font-size="14px" color="#2563EB" font-weight="700">VERIDIS</mj-text>
+        <mj-text font-size="24px" font-weight="700">
+          {{ prenom }}, ce qui a change chez Veridis
+        </mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#525252">
+          Depuis {{ months_inactive }} mois, Veridis a ajoute de nouveaux benchmarks,
+          une meilleure lecture ESRS et des exports PDF plus clairs pour {{ entreprise }}.
+        </mj-text>
+        <mj-text font-size="15px" color="#525252">
+          Offre de retour : <strong>{{ offer }}</strong>.
+        </mj-text>
+        <mj-button background-color="#2563EB" color="white" border-radius="8px" href="{{ cta_url }}">
+          Reprendre ou j'en etais
+        </mj-button>
+        <mj-text font-size="14px" color="#525252">
+          Vous pouvez aussi lire le rapport gratuit : <a href="{{ report_url }}">l'etat de la CSRD</a>.
+        </mj-text>
+        <mj-text font-size="12px" color="#737373">
+          <a href="{{ unsubscribe_url }}">Se desabonner en un clic</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
