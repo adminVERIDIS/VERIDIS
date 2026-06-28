@@ -1,16 +1,16 @@
 node_modules/
 .next/
+out/
 dist/
 coverage/
+*.tsbuildinfo
+
 .env
 .env.*
 !.env.example
-*.log
-Thumbs.db
-.DS_Store
-
-.vercel
-.env*.local
+!.env.production.example
+!**/.env.example
+!**/.env.production.example
 
 __pycache__/
 *.py[cod]
@@ -20,3 +20,9 @@ __pycache__/
 .ruff_cache/
 .venv/
 venv/
+
+.vercel/
+.railway/
+
+*.log
+.DS_Store

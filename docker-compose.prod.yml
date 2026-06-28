@@ -1,0 +1,90 @@
+version: "3.8"
+
+x-api-env: &api-env
+  APP_VERSION: ${APP_VERSION:-0.1.0}
+  DATABASE_URL: ${DATABASE_URL:?DATABASE_URL is required}
+  REDIS_URL: ${REDIS_URL:?REDIS_URL is required}
+  OPENAI_API_KEY: ${OPENAI_API_KEY:?OPENAI_API_KEY is required}
+  STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:?STRIPE_SECRET_KEY is required}
+  STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET:?STRIPE_WEBHOOK_SECRET is required}
+  RESEND_API_KEY: ${RESEND_API_KEY:?RESEND_API_KEY is required}
+  LOOPS_API_KEY: ${LOOPS_API_KEY:-}
+  S3_BACKUP_BUCKET: ${S3_BACKUP_BUCKET:-}
+  AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+  AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+  AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION:-fr-par}
+  CELERY_BROKER_URL: ${CELERY_BROKER_URL:-${REDIS_URL}}
+  CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-${REDIS_URL}}
+
+services:
+  api:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    environment: *api-env
+    expose:
+      - "8000"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    command: celery -A celery_app.celery_app worker --loglevel=info --concurrency=2
+    environment: *api-env
+    depends_on:
+      api:
+        condition: service_healthy
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+    restart: unless-stopped
+
+  beat:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    command: celery -A celery_app.celery_app beat --loglevel=info
+    environment: *api-env
+    depends_on:
+      api:
+        condition: service_healthy
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      API_HOST: ${API_HOST:-api.veridis.fr}
+      CADDY_EMAIL: ${CADDY_EMAIL:-admin@veridis.fr}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:
