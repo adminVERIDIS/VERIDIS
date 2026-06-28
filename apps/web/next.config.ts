@@ -1,8 +1,4 @@
 import type { NextConfig } from "next";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
-
-const currentDirectory = dirname(fileURLToPath(import.meta.url));
 
 const securityHeaders = [
   { key: "X-Frame-Options", value: "DENY" },
@@ -15,7 +11,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: join(currentDirectory, "../.."),
   poweredByHeader: false,
   reactStrictMode: true,
   async headers() {
